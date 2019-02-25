@@ -15,7 +15,7 @@ try:
     
 except:
 # file does not exist, create one
-    print("Rainbow Table file did not exist. Creating it now . . . .")
+    print("JSON file did not exist. Creating it now . . . .")
     with open("10-million-password-list-top-1000000.txt") as lst:
         passwords = lst.read().split("\n")
         # store basic hashes in a text file, and then load into a dictionary on startup.
@@ -31,7 +31,6 @@ except:
         with open("rainbow.json", "w") as j:
             json.dump(d, j)
     
-
 # file does exit    
 d = json.loads(open("rainbow.json").read())
 # restart file position
@@ -64,4 +63,3 @@ else:
     print "Incorrect formatting. Please consult the Github README for proper formatting."
 
 print("Program took " + str(time.time() - start_time) + " seconds to run")
-file.close()
