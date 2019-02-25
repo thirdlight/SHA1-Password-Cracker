@@ -19,7 +19,7 @@ From there, there are three main ways to run this program.
 
 ## Bonus
 
-The program located in file rainbow sha1 reads a json file called "rainbow.json" into a dictionary inside that program. It then looks up hashes with only a single attempt. This program can also solve salted hashes only if the salted hash is known. If that file does not exist, the program will create it. If this file does not exist (which it won't by deafult due to github sizing limits), the program will create it. Note: times below assume the json file already exists in the directory.
+The program located in file rainbow sha1 reads a json file called "rainbow.json" into a dictionary inside that program. It then looks up hashes with only a single attempt. This program can also solve salted hashes only if the salted hash is known. If that file does not exist, the program will create it. If this file does not exist (which it won't by default due to github sizing limits), the program will create it. **Note: times below assume the json file already exists in the directory.**
 
 ### Installation:
 Download the rainbow sha1 folder locally onto your machine and enter that folder from the command line.
