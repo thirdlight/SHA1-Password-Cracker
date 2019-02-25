@@ -31,7 +31,7 @@ From there, there are two main ways to run this program.<br />
 1. If the password NOT salted, run:
  `py -2 [argument hash]`
 1. If the hash is salted AND you know the hash of the salt, run: 
- `py -2 [argument hash] [argument salt hash]`
+ `py -2 [argument hash] [argument salt hash]`<br />
 This program cannot run if the salted hash is not known, as the process would be identical to the basic brute force algorithm in the previous section.
 ### Answers
 **Note: times below assume the json file already exists in the directory.**<br />
