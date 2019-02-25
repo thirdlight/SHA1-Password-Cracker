@@ -1,12 +1,12 @@
 # SHA1-Password-Cracker
-Author: Nicole Grizzle
-Homework 2 for Blockchain and Applications. This program takes the hash of a word and cracks it via a basic, brute force algorithm. It compares the argument hash to the hashes of the passwords in the list line-by-line.
+Author: Nicole Grizzle__
+Homework 2 for Blockchain and Applications.__ This program takes the hash of a word and cracks it via a basic, brute force algorithm. It compares the argument hash to the hashes of the passwords in the list line-by-line.
 ## Getting Started
 ### Dependencies:
 * Python 2.7+
 All modules are imported from python's standard libraries, so no additional libraries are needed.
 ### Installation:
-Download the sha1 folder locally onto your machine and enter that folder from the command line.
+Download the sha1 folder locally onto your machine and enter that folder from the command line.__
 From there, there are three main ways to run this program.
 1. If the password NOT salted, run:
  `py -2 [argument hash]`
@@ -21,20 +21,20 @@ From there, there are three main ways to run this program.
 
 ## Bonus
 
-The program located in file rainbow sha1 reads a json file called "rainbow.json" into a dictionary inside that program. It then looks up basic hashes with only a single attempt. This program can also solve salted hashes only if the salted hash is known. If that file does not exist, the program will create it. 
+The program located in file rainbow sha1 reads a json file called "rainbow.json" into a dictionary inside that program. It then looks up basic hashes with only a single attempt. This program can also solve salted hashes only if the salted hash is known. If that file does not exist, the program will create it.__
 
 If "rainbow.json" does not exist (which it won't by default due to github sizing limits), the program will create the file.
 
 ### Installation:
-Download the rainbow sha1 folder locally onto your machine and enter that folder from the command line.
-From there, there are two main ways to run this program.
+Download the rainbow sha1 folder locally onto your machine and enter that folder from the command line.__
+From there, there are two main ways to run this program.__
 1. If the password NOT salted, run:
  `py -2 [argument hash]`
 1. If the hash is salted AND you know the hash of the salt, run: 
  `py -2 [argument hash] [argument salt hash]`
 This program cannot run if the salted hash is not known, as the process would be identical to the basic brute force algorithm in the previous section.
 ### Answers
-**Note: times below assume the json file already exists in the directory.**
+**Note: times below assume the json file already exists in the directory.**__
 1. b7a875fc1ea228b9061041b7cec4bd3c52ab3ce3: letmein, found in 1 attempt, took 1.51 seconds to run
 1. 801cdea58224c921c21fd2b183ff28ffa910ce31: vjhtrhsvdctcegth, found in 1 attempt, took 1.53 seconds to run
 1. ece4bb07f2580ed8b39aa52b7f7f918e43033ea1: slayerharib, found in 546155 attempts, took 3.35 seconds when the salted hash was known. 
