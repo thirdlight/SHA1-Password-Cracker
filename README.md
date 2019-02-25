@@ -1,5 +1,5 @@
 # SHA1-Password-Cracker
-Homework 2 for Blockchain and Applications. This program takes the hash of a word and cracks it via a basic, brute force algorithm.
+Homework 2 for Blockchain and Applications. This program takes the hash of a word and cracks it via a basic, brute force algorithm. It compares the argument hash to the hashes of the passwords in the list line-by-line.
 ## Getting Started
 ### Dependencies:
 * Python 2.7+
